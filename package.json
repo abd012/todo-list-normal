@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://abd012.github.com/Todo-list-normal",
   "name": "vite-project",
   
   "private": true,
@@ -10,7 +10,8 @@
   
   "scripts": {
     "dev": "vite",
-    
+    "predeploy":"npm run build",
+    "deploy" :"gh-pages -d dist",
   "build": "vite build",
   
     
